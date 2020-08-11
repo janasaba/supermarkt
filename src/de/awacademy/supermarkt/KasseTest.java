@@ -31,7 +31,6 @@ public class KasseTest {
 	
 	@Test
 	public void einkaufsWagen() {
-
 		// 1. Testdaten vorbereiten
 		Produkt vanilleEis = new Produkt("Vanilleeis", 299);
 		Produkt schokoEis = new Produkt("Schokoeis", 3949);
