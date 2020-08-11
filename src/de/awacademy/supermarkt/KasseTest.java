@@ -37,7 +37,6 @@ public class KasseTest {
 		Produkt schokoEis = new Produkt("Schokoeis", 3949);
 		
 		Kasse kasse = new Kasse();
-		
 		// 2. Logik ausführen
 		kasse.scan(vanilleEis);
 		kasse.scan(schokoEis);
