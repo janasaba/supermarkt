@@ -12,14 +12,14 @@ public class KasseTest {
 		
 		// 1. Testdaten vorbereiten
 		Produkt vanille = new Produkt("Vanilleeis", 299);
-		Produkt schoko = new Produkt("Schokoeis", 399);
+		Produkt erdbeer = new Produkt("Schokoeis", 299);
 		
 		Kasse kasse = new Kasse();
 		
 		
 		// 2. Logik ausführen
 		kasse.scan(vanille);
-		kasse.scan(schoko);
+		kasse.scan(erdbeer);
 		
 		int zwischenSumme = kasse.getZwischenSumme();
 		
@@ -38,8 +38,8 @@ public class KasseTest {
 		
 		Kasse kasse = new Kasse();
 		// 2. Logik ausführen
-		kasse.scan(vanille);
-		kasse.scan(schoko);
+		kasse.scan(vanilleEis);
+		kasse.scan(schokoEis);
 
 		ArrayList<Produkt> produkte = kasse.getEinkaufsWagen(); // String[]
 		
