@@ -11,15 +11,15 @@ public class KasseTest {
 	public void scanZweiProdukte() {
 		
 		// 1. Testdaten vorbereiten
-		Produkt vanilleEis = new Produkt("Vanilleeis", 299);
-		Produkt schokoEis = new Produkt("Schokoeis", 399);
+		Produkt vanille = new Produkt("Vanilleeis", 299);
+		Produkt schoko = new Produkt("Schokoeis", 399);
 		
 		Kasse kasse = new Kasse();
 		
 		
 		// 2. Logik ausführen
-		kasse.scan(vanilleEis);
-		kasse.scan(schokoEis);
+		kasse.scan(vanille);
+		kasse.scan(schoko);
 		
 		int zwischenSumme = kasse.getZwischenSumme();
 		
@@ -30,15 +30,16 @@ public class KasseTest {
 	
 	
 	@Test
+
 	public void einkaufsWagen() {
 		// 1. Testdaten vorbereiten
 		Produkt vanilleEis = new Produkt("Vanilleeis", 299);
-		Produkt schokoEis = new Produkt("Schokoeis", 3949);
+		Produkt schokoEis = new Produkt("Schokoeis", 3995);
 		
 		Kasse kasse = new Kasse();
 		// 2. Logik ausführen
-		kasse.scan(vanilleEis);
-		kasse.scan(schokoEis);
+		kasse.scan(vanille);
+		kasse.scan(schoko);
 
 		ArrayList<Produkt> produkte = kasse.getEinkaufsWagen(); // String[]
 		
