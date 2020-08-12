@@ -16,7 +16,7 @@ public class KasseTest {
 
 		
 		// 1. Testdaten vorbereiten
-		Produkt vanille = new Produkt("Vanille", 299);
+		Produkt vanill = new Produkt("Vanille", 299);
 		Produkt erdbeer = new Produkt("Schoko", 299);
 		
 		Kasse kasse = new Kasse();
