@@ -10,6 +10,8 @@ public class KasseTest {
 	@Test
 	public void scanZweiProdukte() {
 		
+		//whats poppin ?
+		
 		// 1. Testdaten vorbereiten
 		Produkt vanille = new Produkt("Vanille", 299);
 		Produkt erdbeer = new Produkt("Schoko", 299);

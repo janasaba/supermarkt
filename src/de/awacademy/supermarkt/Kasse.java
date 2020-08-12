@@ -14,10 +14,6 @@ public class Kasse {
 		this.einkaufsWagen.add(produkt);
 	}
 	
-	public int getZwischenSumme() {
-		return this.zwischenSumme;
-	}
-
 	public ArrayList<Produkt> getEinkaufsWagen() {
 		return this.einkaufsWagen;
 	}
