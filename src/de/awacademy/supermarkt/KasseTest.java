@@ -10,7 +10,10 @@ public class KasseTest {
 	@Test
 	public void scanZweiProdukte() {
 		
+
 		//was meinst du?Konflikttest Jana
+		//whats poppin ? Hallo Jana, wie geht es dir ?
+
 		
 		// 1. Testdaten vorbereiten
 		Produkt vanille = new Produkt("Vanille", 299);
