@@ -11,8 +11,8 @@ public class KasseTest {
 	public void scanZweiProdukte() {
 		
 		// 1. Testdaten vorbereiten
-		Produkt vanille = new Produkt("Vanilleeis", 299);
-		Produkt erdbeer = new Produkt("Schokoeis", 299);
+		Produkt vanille = new Produkt("Vanille", 299);
+		Produkt erdbeer = new Produkt("Schoko", 299);
 		
 		Kasse kasse = new Kasse();
 		
