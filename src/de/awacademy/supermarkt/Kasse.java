@@ -1,3 +1,4 @@
+#zweiter Kommentar
 #cooler Kommentar
 package de.awacademy.supermarkt;
 
