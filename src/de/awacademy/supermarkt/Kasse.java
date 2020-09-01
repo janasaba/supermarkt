@@ -1,3 +1,4 @@
+#cooler Kommentar
 package de.awacademy.supermarkt;
 
 import java.util.ArrayList;
